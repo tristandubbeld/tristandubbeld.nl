@@ -1,0 +1,21 @@
+{
+  "name": "tristandubbeld.nl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tristandubbeld/tristandubbeld.nl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tristandubbeld/tristandubbeld.nl/issues"
+  },
+  "homepage": "https://github.com/tristandubbeld/tristandubbeld.nl#readme"
+}
