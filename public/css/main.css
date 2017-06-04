@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', Sans-Serif;
+    font-size: 16px;
+}
+
+.retain {
+    max-width: 980px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+h1 {
+    font-family: 'Montserrat', Sans-Serif;
+    font-size: 1.5em;
+}
+
+p {
+    text-align: justify;
+}
+
+@media only screen and (min-width: 740px) {
+    .retain {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
