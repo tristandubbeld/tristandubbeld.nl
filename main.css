@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+		Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+a {
+  color:hsl(211, 60%, 48%);
+}
+
+.spacer {
+  height: 2rem;
+}
+.spacer--2 {
+  height: 4rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.social {
+  display: flex;
+}
+.social-profile {
+  display: flex;
+  align-items: center;
+}
+.social-profile+.social-profile {
+  margin-left: 1rem;
+}
+.social-profile>span {
+  margin-left: .25rem;
+}
+
+.text--highlight {
+  font-size: 1.4rem;
+  color: hsl(0, 0%, 20%);
+}
+.text--disclaimer {
+  font-size: 1rem;
+  font-style: italic;
+}
+.text--regular {
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 20%);
+}
+
+.tech {
+  position: relative;
+  color: inherit;
+}
+.tech::after {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: -.125rem;
+  content: '';
+  width: 100%;
+  height: 1rem;
+  background-color: rgba(255, 205, 98, 0.125);
+}
+.tech--js::after {
+  background-color: hsla(54, 93%, 53%, .125);
+}
+.tech--ts::after {
+  background-color: hsl(211, 60%, 48%, .125);
+}
+.tech--react::after {
+  background-color: hsla(193, 95%, 68%, .125);
+}
+.tech--next::after {
+  background-color: rgba(0, 0, 0, 0.125);
+}
+.tech--node::after {
+  background-color: hsla(119, 100%, 22%, .125);
+}
+
+.horizontal-rule {
+  border-bottom: 1px solid hsl(211, 60%, 10%);
+}
+
+.interest-list {
+  margin: 2rem 0;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.interest-item+.interest-item {
+  margin-top: 1rem;
+}
