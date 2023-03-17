@@ -15,11 +15,31 @@ a {
   color: hsl(210, 60%, 48%);
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.m0 {
+  margin: 0;
+}
+
 .spacer {
   height: 2rem;
 }
 .spacer--2 {
   height: 4rem;
+}
+
+.slides {
+  padding: 40px;
+  text-align: center;
+  background-color: #161616;
+  color: #f0f0f0;
+  font-weight: 700;
+}
+
+.slides-link {
+  color: #d6fb41;
 }
 
 .container {
